@@ -2,4 +2,12 @@
     <string name="app_name">TestExAinsoft</string>
     <string name="show">Show</string>
     <string name="download">Download</string>
+    <string name="ok">OK</string>
+    <string name="internet_unavailable">Internet connection unavailble</string>
+    <string name="download_data">Download data</string>
+    <string name="products_not_found">Products not found.</string>
+
+    <string name="item_product_name">Название: %s</string>
+    <string name="item_product_price">Цена:     %.3f</string>
+    <string name="cancel">Cancel</string>
 </resources>

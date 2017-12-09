@@ -1,4 +1,6 @@
-package com.oldmen.testexainsoft;
+package com.oldmen.testexainsoft.api;
+
+import com.oldmen.testexainsoft.model.ProductData;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

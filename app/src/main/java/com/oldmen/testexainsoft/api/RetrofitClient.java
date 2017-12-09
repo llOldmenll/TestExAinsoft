@@ -1,6 +1,6 @@
-package com.oldmen.testexainsoft;
+package com.oldmen.testexainsoft.api;
 
-import android.content.Context;
+import com.oldmen.testexainsoft.utills.Constants;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
@@ -20,10 +20,7 @@ public class RetrofitClient {
                 .build();
     }
 
-    public static ApiService getApiService(Context context) {
+    public static ApiService getApiService() {
         return getRetrofitInstance().create(ApiService.class);
     }
-
-
-
 }

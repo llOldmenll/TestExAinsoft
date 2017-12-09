@@ -1,4 +1,4 @@
-package com.oldmen.testexainsoft;
+package com.oldmen.testexainsoft.model;
 
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Root;
@@ -17,7 +17,6 @@ public class Product {
     @Element(name = "price")
     private double mPrice;
 
-    public Product() {}
 
     public int getmId() {
         return mId;
